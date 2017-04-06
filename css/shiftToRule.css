@@ -1,0 +1,78 @@
+html,body,div,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd,p,blockquote,pre,form,fieldset,table,th,td,map,header,input,select,img,a{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	outline: none;
+	border: 0;
+	font-family: STXihei,Microsoft YaHei,"华文黑体";
+	font-weight: normal;
+}
+.contentWrap{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.contentWrap h2{
+	font-size: 1em;
+	padding: 7% 0 3% 0; 
+	color: #fd554c;
+	font-weight: bold;
+}
+.contentWrap p{
+	color: #999;
+	font-size: 0.7em;
+	line-height: 20px;
+	padding: 0 0 5% 0;
+}
+.contBlog{
+	width: 100%;
+	border: 1px solid #eaeaea;
+	overflow: hidden;
+	border-bottom: 0;
+	border-right: none;
+}
+.contBlog div{
+	width: 32.9%;
+	float: left;
+	text-align: center;
+	color: #666;
+	border-bottom: 1px solid #eaeaea;
+	font-size: 0.7em;
+	border-right: 1px solid #eaeaea;
+}
+.contBlog .day{
+	height: 49px;
+	line-height: 49px;
+}
+.contBlog .tb1{
+	height: 50px;
+	padding: 15px 13px 0;
+	box-sizing:border-box;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-0-box-sizing:border-box;
+-ms-box-sizing:border-box;
+}
+.contBlog .title{
+	padding: 4% 0;
+	color: #fe6946;
+	background: #eee;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
