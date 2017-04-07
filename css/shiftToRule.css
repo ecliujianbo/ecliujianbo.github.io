@@ -18,6 +18,8 @@ html,body,div,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd,p,blockquote,pre,form,fieldset
 	padding: 7% 0 3% 0; 
 	color: #fd554c;
 	font-weight: bold;
+	width: :100%;
+	
 }
 .contentWrap p{
 	color: #999;
