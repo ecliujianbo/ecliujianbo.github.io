@@ -15,11 +15,13 @@ html,body,div,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd,p,blockquote,pre,form,fieldset
 }
 .contentWrap h2{
 	font-size: 1em;
-	padding: 7% 0 3% 0; 
-	color: #fd554c;
+	padding: 3% 0 3% 0; 
 	font-weight: bold;
 	width: :100%;
 
+}
+.contentWrap h2 a{
+	color: #fd554c;
 }
 .contentWrap p{
 	color: #999;
@@ -37,6 +39,7 @@ html,body,div,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd,p,blockquote,pre,form,fieldset
 	border: 1px solid #eaeaea;
 	overflow: hidden;
 	border-bottom: 0;
+	display: inline-block;
 	border-right: none;
 }
 .contBlog div{
