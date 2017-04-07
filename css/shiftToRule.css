@@ -19,13 +19,18 @@ html,body,div,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd,p,blockquote,pre,form,fieldset
 	color: #fd554c;
 	font-weight: bold;
 	width: :100%;
-	
+
 }
 .contentWrap p{
 	color: #999;
-	font-size: 0.7em;
+	font-size: 1em;
 	line-height: 20px;
 	padding: 0 0 5% 0;
+}
+.contentWrap .subTitle{
+	text-align: center;
+	font-size: 1.5em;
+	color: #F14537;
 }
 .contBlog{
 	width: 100%;
