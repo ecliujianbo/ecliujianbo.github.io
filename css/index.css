@@ -1,0 +1,37 @@
+html,body,div,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd,p,blockquote,pre,form,fieldset,table,th,td,map,header,input,select,img,a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+    border: 0;
+    font-family: STXihei,Microsoft YaHei,"华文黑体";
+    font-weight: normal;
+}
+.contentWrap{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.contentWrap .subTitle{
+    text-align: center;
+    font-size: 1.5em;
+    color: #F14537;
+}
+.contentWrap .contItem{
+     width: 100%;
+    margin: 5;
+}
+.contentWrap .contItem .title{
+    width: 30%;
+     height: 100px;
+    display: inline-flex;
+    float: center;
+    background-color: #cccccc;
+    margin: 5;
+    align-self: center;
+   
+}
+.contentWrap .contItem .title h5{
+   text-align: center;
+  }

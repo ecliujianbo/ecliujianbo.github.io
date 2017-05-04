@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<head>
+    <title>图片展示</title>
+    <script type="text/javascript">
+        function getUrl() {
+            var ca = document.cookie;
+            return ca;
+        }
+    </script>
+      <style>
+    .bird{background: url(./images/img_show_one.JPG);width: 400px;height:600px;animation: bird 3s steps(8) infinite; }
+    @keyframes bird{
+       from {
+          background-position: 0 0;
+       }
+       to {
+          background-position: 100% 0px;
+       }
+    }
+    .content{width: 100%;height:100%;}
+    </style>
+</head>
+<body>
+<div class="content">
+    
+
+ <div class="bird"></div>
+ </div>
+</body>
+</html>
