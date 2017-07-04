@@ -1,0 +1,95 @@
+.m_center {
+    margin: 0 auto;
+}
+
+
+/*banner begin*/
+.banner {
+    width: 100%;
+    height: 80px;
+    background: #FAFAFA;
+    border-bottom: 1px solid #ccc ;
+}
+
+.b_content {
+    height: 100%;
+    position: relative;
+}
+
+.b_classic {
+    position: absolute;
+    bottom: 10px;
+    right: 60px;
+    font: normal bold 18px "宋体";
+}
+
+/*banner end*/
+
+/*content begin*/
+
+.content {
+    margin-top: 10px;
+}
+.subtitle {
+    font: normal bold 20px "宋体";
+}
+.c_subtitle_official {
+    color: blue;
+}
+.c_subtitle_other {
+    color: #F14537;
+    margin-top: 20px;
+}
+
+.c_item_official {
+     margin-top: 10px;
+    background: white;
+    border: 1px solid blue;
+    padding: 10px 20px;
+}
+
+.c_item {
+     margin-top: 10px;
+    background: white;
+    border-bottom: 1px dotted #ccc;
+    padding: 10px 20px;
+}
+
+.c_i_title {
+    color: #333;
+    font-size: 20px;
+}
+
+.c_i_industry {
+    overflow: hidden;
+}
+.c_i_i_label{
+    font-size: 18px;
+    color: #666;
+    height: 40px;
+    line-height: 40px;
+}
+
+ .c_i_address a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: #666;
+    height: 40px;
+    line-height: 40px;
+}
+
+/*content end*/
+
+/*footer begin*/
+.footer {
+    margin: 20px;
+}
+
+.footer .f_content {
+    color: #F14537;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*footer end*/

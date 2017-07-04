@@ -25,6 +25,7 @@ var nStr2 = new Array('初','十','廿','卅');
 var sFtv = new Array(
 "0101 元旦",
 "0214 情人节",
+"0228 结婚日",
 "0308 妇女节",
 "0312 植树节",
 "0315 消费者权益日",
@@ -46,11 +47,15 @@ var sFtv = new Array(
 var lFtv = new Array(
 "0101 春节",
 "0115 元宵节",
+"0422 母亲生日",
 "0505 端午节",
+"0602 我生日",
 "0707 七夕情人节",
 "0715 中元节",
 "0815 中秋节",
+"0820 媳妇生日",
 "0909 重阳节",
+"0913 父亲生日",
 "1208 腊八节",
 "1224 小年")
 //返回农历y年的总天数
@@ -226,8 +231,21 @@ function drawCld(SY,SM) {
 		for (var ipp=0;ipp<lFtv.length;ipp++){	//农历节日
 			if (parseInt(lFtv[ipp].substr(0,2))==(cld[sD].lMonth)){
 				if (parseInt(lFtv[ipp].substr(2,4))==(cld[sD].lDay)){
-					lObj.innerHTML=lFtv[ipp].substr(5);
-					Slfw=lFtv[ipp].substr(5);
+               var name = lFtv[ipp].substr(5);
+               //    lObj.innerHTML=name;
+               switch(name){
+                  case '媳妇生日':
+                  case '父亲生日':
+                  case '母亲生日':
+                  case '我生日':
+                     lObj.innerHTML= '<b style="color:#0000FF">'+name+'</b>';
+                     notifyOtherLabel(true,name);
+                  break;
+                  default:
+                     lObj.innerHTML=name;
+                  break;
+               }
+					Slfw=name;
 				}
 			}
 			if (12==(cld[sD].lMonth)){	//判断是否为除夕
@@ -237,7 +255,16 @@ function drawCld(SY,SM) {
 		for (var ipp=0;ipp<sFtv.length;ipp++){	//公历节日
 			if (parseInt(sFtv[ipp].substr(0,2))==(SM+1)){
 				if (parseInt(sFtv[ipp].substr(2,4))==(sD+1)){
-					lObj.innerHTML=sFtv[ipp].substr(5);
+               var name =  sFtv[ipp].substr(5);
+               switch(name){
+                  case '结婚纪念日':
+                     lObj.innerHTML= '<b style="color:#0000FF">'+name+'</b>';
+                     notifyOtherLabel(false,name);
+                  break;
+                  default:
+                     lObj.innerHTML= name;
+                  break;
+               }
 					Ssfw=sFtv[ipp].substr(5);
 				}
 			}
@@ -279,6 +306,7 @@ function changeCld() {
    var y,m;
    y=CLD.SY.selectedIndex+1900;
    m=CLD.SM.selectedIndex;
+   notifyOtherLabel(false,null);
    drawCld(y,m);
 }
 //用自定义变量保存当前系统中的年月日
@@ -303,3 +331,15 @@ function hiddenDate(){
  dateObj = document.getElementById('CLD');
    dateObj.style.display='none';
 }
+
+// 通知其他标签，
+// param:isLunarCalendar,是否为农历；name,节日名
+function notifyOtherLabel(isLunarCalendar,name){
+   lunarData = document.getElementById('n_r_b_content');
+   if(name == null){
+      lunarData.innerHTML = '暂无';
+      return;
+   }
+   lunarData.innerHTML = name;
+}
+
