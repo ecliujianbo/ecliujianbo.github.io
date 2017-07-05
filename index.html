@@ -10,28 +10,32 @@
     <link rel="stylesheet" href="css/date.css">
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link rel="stylesheet" type="text/css" href="css/newIndex.css">
+    <!-- gmail 帐号 -->
+    <!-- origincapit@gmail.com -->
+    <!-- andliujianbo@gmail.com -->
 
 </head>
 <body onload="initial();">
     <!-- banner begin -->
-    <div class="banner">
-        <div class="b_content w980 m_center clearfix">
-            <img class="b_logo" src="images/logo.png">
-            <span class="b_classic">you still have lots more to work on</span>
+    <div class="banner_wrapper">
+        <div class="banner">
+            <div class="b_content w980 m_center">
+                <img class="b_logo" src="images/logo.png">
+                <span class="b_classic">you still have lots more to work on</span>
+            </div>
         </div>
     </div>
     <!-- banner end -->
     <!-- nav begin -->
-    <div class="nav">
+    <div class="nav clearfix">
         <div class="nav_left">
-            <div class="nav_left_title">
+            <div class="nav_left_title clearfix">
                 <ul>
                     <li><a href="#">最新</a></li>
                     <li><a href="#">Android</a></li>
                     <li><a href="#">Html</a></li>
                     <li><a href="#">技术</a></li>
                 </ul>
-                <div style="clear:both"></div>
             </div>
             <div class="nav_left_content">
                 <ul>
@@ -43,7 +47,11 @@
                         <a href="http://blog.csdn.net/android_jianbo/article/details/72769803">        Kotlin初探：用Kotlin实现Android的ListView列表
                         </a>
                     </li>
-                    <li><a href="http://blog.csdn.net/android_jianbo/article/details/71173265">Android plugin插件化开发初试</a></li>
+                    <li>
+                        <a href="http://blog.csdn.net/android_jianbo/article/details/71173265">
+                            Android plugin插件化开发初试
+                        </a>
+                    </li>
                     <li><a href="http://blog.csdn.net/android_jianbo/article/details/70861136">自定义横向带刻度progressbar</a></li>
                     <li><a href="http://blog.csdn.net/android_jianbo/article/details/53643826">Android 多渠道打包的几种方式</a></li>
                     <li><a href="http://blog.csdn.net/android_jianbo/article/details/53541277">React-Native 学习--参数传递</a></li>
@@ -117,12 +125,48 @@
     <div class="ad m_center w980">
         <h3 class="ad_title">文章推荐：</h3>
         <ul>
-            <li><a href="./androidDesc.html"   target="_blank"><img src="images/bg_android.gif"></a></li>
-            <li><a href="./reactNativeDesc.html"  target="_blank"><img src="images/bg_rn.gif"></a></li>
-            <li><a href="./swiftVskt.html"  target="_blank"><img src="images/bg_kotlin.gif"></a></li>
-            <li><a href="./picResource.html"  target="_blank"><img src="images/bg_resource.gif"></a></li>
-            <li><a href="./apiDesc.html" target="_blank"><img src="images/bg_api.gif"></a></li>
-            <li><a href="javascript:;"><img src="images/bg_other.gif"></a></li>
+            <li>
+                <a href="./androidDesc.html"   target="_blank">
+                    <div class="img_wrapper">
+                        <img src="images/bg_android.gif">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="./reactNativeDesc.html"  target="_blank">
+                    <div class="img_wrapper">
+                        <img src="images/bg_rn.gif">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="./swiftVskt.html"  target="_blank">
+                    <div class="img_wrapper">
+                        <img src="images/bg_kotlin.gif">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="./picResource.html"  target="_blank">
+                    <div class="img_wrapper">
+                        <img src="images/bg_resource.gif">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="./apiDesc.html" target="_blank">
+                    <div class="img_wrapper">
+                        <img src="images/bg_api.gif">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <div class="img_wrapper">
+                        <img src="images/bg_other.gif">
+                    </div>
+                </a>
+            </li>
         </ul>
     </div>
     <!-- ad end -->
