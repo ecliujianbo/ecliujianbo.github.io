@@ -57,5 +57,17 @@
 
 /*content end*/
 
+/*footer begin*/
+.footer {
+    margin: 20px;
+}
+
+.footer .f_content {
+    color: #F14537;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*footer end*/
 
 

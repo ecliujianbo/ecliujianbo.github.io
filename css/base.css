@@ -21,6 +21,11 @@ fieldset,legend{border: none;}
     width: 980px;
 }
 
+/*comment begin*/
+.comment {
+    margin-top: 20px;
+}
+/*comment end*/
 
 /*浮动和盒子*/
 .f-left{float:left}
