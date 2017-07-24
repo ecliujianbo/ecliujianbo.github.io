@@ -29,6 +29,11 @@
 /*banner end*/
 
 /*content begin*/
+.c_title {
+    background: #6ac12d;
+    color: white;
+}
+
 .c_study {
     border:1px solid #ccc;
     font-size: 18px;
