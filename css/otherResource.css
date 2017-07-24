@@ -31,11 +31,16 @@
 /*content begin*/
 .c_study {
     border:1px solid #ccc;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 20px;
 }
 .c_study td {
-    border:1px solid #ccc;
+    border-top:1px solid #ccc;
+    border-left: 2px solid #ccc;
+}
+.c_study td b {
+    font-size: 22px;
+    color: blue;
 }
 .c_style .c_title {
     background: blue;
