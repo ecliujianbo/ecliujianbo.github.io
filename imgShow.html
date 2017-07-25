@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="keywords" content="资源,学习,图片,手工绘图">
+    <meta name="description" content="定制学习计划">
+    <title>图片展示</title>
+        <!-- title左边icon -->
+    <link rel="icon" href="images/ic_site.ico" type="img/x-ico" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/imgShow.css">
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+
+</head>
+<body>
+    <!-- banner begin  -->
+    <div class="banner">
+        <div class="b_content w980 m_center clearfix">
+            <img class="b_logo" src="images/logo.png">
+            <span class="b_classic">下面请欣赏 <b>星星童鞋</b> 的手绘图</span>
+        </div>
+    </div>
+    <!-- banner end -->
+
+    <!-- content begin -->
+    <canvas id="a"></canvas>
+<script>
+    var c=document.getElementById("c");
+    var ctx=c.getContext("2d");
+    c.width=window.innerWidth;
+    c.height=window.innerHeight;
+    //              ctx.fillRect(0,0,100,100);
+    //              a,b,c,d分别代表x方向偏移,y方向偏移,宽，高
+    var string1 = "abcdefghijklmnopqrstuvwxyz";
+    string1.split("");
+    var fontsize=20;
+    columns=c.width/fontsize;
+    var drop = [];
+    for(var x=0;x<columns;x++)
+    {
+        drop[x]=0;
+    }
+    function drap(){
+        ctx.fillStyle="rgba(0,0,0,0.07)";
+        ctx.fillRect(0,0,c.width,c.height);
+        ctx.fillStyle="#0F0";
+        ctx.font=fontsize+"px arial";
+        for(var i=0;i<drop.length;i++){
+            var text1=string1[Math.floor(Math.random()*string1.length)];
+            ctx.fillText(text1,i*fontsize,drop[i]*fontsize);
+            drop[i]++;
+            if(drop[i]*fontsize>c.height&&Math.random()>0.9){//90%的几率掉落
+                drop[i]=0;
+            }
+        }
+    }
+    setInterval(drap,20);
+</script>
+<ul id="wrap" class="center">
+</ul>
+    <script src="js/imgShow.js"></script>
+    <!-- content end -->
+</body>
+</html>

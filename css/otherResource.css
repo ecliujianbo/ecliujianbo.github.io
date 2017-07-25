@@ -38,6 +38,8 @@
     border:1px solid #ccc;
     font-size: 18px;
     margin-top: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 .c_study td {
     border-top:1px solid #ccc;

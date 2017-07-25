@@ -176,7 +176,7 @@
     padding: 16px 0;
 }
 .f_about {
-    width: 300px;
+    width: 500px;
     margin: 0 auto;
     color: white;
 }
@@ -190,6 +190,7 @@
 }
 .f_about a {
     text-decoration: none;
+    color: white;
 }
 .f_about .blog {
     color: white;
