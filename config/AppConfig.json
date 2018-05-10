@@ -1,187 +1,187 @@
 {
-  "exhibitorHTMLCode" : "0",
-  "exhibitsHTMLCode" : "0",
-  "homePage" : {
-    "brandExhibitor" : true,
-    "firstExhibitor" : true,
-    "inButtons" : [
+  "exhibitorHTMLCode": "0",
+  "exhibitsHTMLCode": "0",
+  "homePage": {
+    "brandExhibitor": true,
+    "firstExhibitor": true,
+    "inButtons": [
       {
-        "iconUrl" : "www.",
-        "inClass" : "Class",
-        "title" : "酒店"
+        "iconUrl": "www.",
+        "inClass": "Class",
+        "title": "酒店"
       },
       {
-        "iconUrl" : "www.",
-        "inClass" : "Class",
-        "title" : "交通"
+        "iconUrl": "www.",
+        "inClass": "Class",
+        "title": "交通"
       },
       {
-        "iconUrl" : "www.",
-        "inClass" : "Class",
-        "title" : "展馆地图"
+        "iconUrl": "www.",
+        "inClass": "Class",
+        "title": "展馆地图"
       },
       {
-        "iconUrl" : "www.",
-        "inClass" : "Class",
-        "title" : "展会新闻"
+        "iconUrl": "www.",
+        "inClass": "Class",
+        "title": "展会新闻"
       },
       {
-        "iconUrl" : "www.",
-        "inClass" : "Class",
-        "title" : "找展商"
+        "iconUrl": "www.",
+        "inClass": "Class",
+        "title": "找展商"
       },
       {
-        "iconUrl" : "www.",
-        "inClass" : "Class",
-        "title" : "找展品"
+        "iconUrl": "www.",
+        "inClass": "Class",
+        "title": "找展品"
       },
       {
-        "iconUrl" : "www.",
-        "inClass" : "Class",
-        "title" : "发布"
+        "iconUrl": "www.",
+        "inClass": "Class",
+        "title": "发布"
       },
       {
-        "iconUrl" : "www.",
-        "inClass" : "Class",
-        "title" : "随便吧"
+        "iconUrl": "www.",
+        "inClass": "Class",
+        "title": "随便吧"
       },
       {
-        "iconUrl" : "www.",
-        "in Class" : "Class",
-        "title" : "再来一个"
+        "iconUrl": "www.",
+        "in Class": "Class",
+        "title": "再来一个"
       }
     ],
-    "recommendedExhibits" : true
+    "recommendedExhibits": true
   },
-  "imageFileName" : "i_APPImage.zip",
-  "message" : {
-    "isIM" : false
+  "imageFileName": "http://www.andliu.cn/config/icons.zip",
+  "message": {
+    "isIM": false
   },
-  "mine" : {
-    "invitatManage" : true,
-    "mySchedule" : true
+  "mine": {
+    "invitatManage": true,
+    "mySchedule": true
   },
-  "newsHTMLCode" : "0",
-  "tabBars" : [
+  "newsHTMLCode": "0",
+  "tabBars": [
     {
-      "className" : "HomePage",
-      "tabBarName" : "首页",
-      "tabImageName" : "ic_main_index_unselect",
-      "tabImagePressName" : "ic_main_index_select"
+      "className": "HomePage",
+      "tabBarName": "首页",
+      "tabImageName": "ic_main_index_unselect",
+      "tabImagePressName": "ic_main_index_select"
     },
     {
-      "className" : "Message",
-      "tabBarName" : "消息",
-      "tabImageName" : "ic_main_message_unselect",
-      "tabImagePressName" : "ic_main_message_select"
+      "className": "Message",
+      "tabBarName": "消息",
+      "tabImageName": "ic_main_message_unselect",
+      "tabImagePressName": "ic_main_message_select"
     },
     {
-      "className" : "Exhibits",
-      "tabBarName" : "展品",
-      "tabImageName" : "ic_main_exhibit_unselect",
-      "tabImagePressName" : "ic_main_exhibit_select"
+      "className": "Exhibits",
+      "tabBarName": "展品",
+      "tabImageName": "ic_main_exhibit_unselect",
+      "tabImagePressName": "ic_main_exhibit_select"
     },
     {
-      "className" : "Exhibitor",
-      "tabBarName" : "展商",
-      "tabImageName" : "ic_main_exhibition_unselect",
-      "tabImagePressName" : "ic_main_exhibition_select"
+      "className": "Exhibitor",
+      "tabBarName": "展商",
+      "tabImageName": "ic_main_exhibition_unselect",
+      "tabImagePressName": "ic_main_exhibition_select"
     },
     {
-      "className" : "Mine",
-      "tabBarName" : "我的",
-      "tabImageName" : "ic_main_mine_unselect",
-      "tabImagePressName" : "ic_main_mine_select"
+      "className": "Mine",
+      "tabBarName": "我的",
+      "tabImageName": "ic_main_mine_unselect",
+      "tabImagePressName": "ic_main_mine_select"
     }
   ],
-  "themeColor" : "57479a",
-  "userInfo" : [
+  "themeColor": "57479a",
+  "userInfo": [
     {
-      "infor" : [
+      "infor": [
         {
-          "canSelect" : false,
-          "height" : 100,
-          "name" : "姓名",
-          "placeholder" : "请输入姓名",
-          "required" : true
+          "canSelect": false,
+          "height": 100,
+          "name": "姓名",
+          "placeholder": "请输入姓名",
+          "required": true
         },
         {
-          "canSelect" : false,
-          "height" : 100,
-          "name" : "电话",
-          "placeholder" : "请输入姓名",
-          "required" : true
+          "canSelect": false,
+          "height": 100,
+          "name": "电话",
+          "placeholder": "请输入姓名",
+          "required": true
         },
         {
-          "canSelect" : false,
-          "height" : 236,
-          "name" : "详细地址",
-          "placeholder" : "请输入姓名",
-          "required" : true
+          "canSelect": false,
+          "height": 236,
+          "name": "详细地址",
+          "placeholder": "请输入姓名",
+          "required": true
         },
         {
-          "canSelect" : true,
-          "height" : 100,
-          "name" : "国家",
-          "placeholder" : "请输入姓名",
-          "required" : true
+          "canSelect": true,
+          "height": 100,
+          "name": "国家",
+          "placeholder": "请输入姓名",
+          "required": true
         },
         {
-          "canSelect" : true,
-          "height" : 236,
-          "name" : "省份",
-          "placeholder" : "请输入姓名",
-          "required" : true
+          "canSelect": true,
+          "height": 236,
+          "name": "省份",
+          "placeholder": "请输入姓名",
+          "required": true
         }
       ],
-      "title" : "观众基本信息"
+      "title": "观众基本信息"
     },
     {
-      "infor" : [
+      "infor": [
         {
-          "canSelect" : false,
-          "height" : 100,
-          "name" : "邮箱",
-          "placeholder" : "请输入姓名",
-          "required" : true
+          "canSelect": false,
+          "height": 100,
+          "name": "邮箱",
+          "placeholder": "请输入姓名",
+          "required": true
         },
         {
-          "canSelect" : false,
-          "height" : 100,
-          "name" : "电话",
-          "placeholder" : "请输入姓名",
-          "required" : true
+          "canSelect": false,
+          "height": 100,
+          "name": "电话",
+          "placeholder": "请输入姓名",
+          "required": true
         },
         {
-          "canSelect" : false,
-          "height" : 236,
-          "name" : "详细地址",
-          "placeholder" : "请输入姓名",
-          "required" : true
+          "canSelect": false,
+          "height": 236,
+          "name": "详细地址",
+          "placeholder": "请输入姓名",
+          "required": true
         },
         {
-          "canSelect" : true,
-          "height" : 100,
-          "name" : "国家",
-          "placeholder" : "请输入姓名",
-          "required" : true
+          "canSelect": true,
+          "height": 100,
+          "name": "国家",
+          "placeholder": "请输入姓名",
+          "required": true
         },
         {
-          "canSelect" : true,
-          "height" : 100,
-          "name" : "省份",
-          "placeholder" : "请输入姓名",
-          "required" : true
+          "canSelect": true,
+          "height": 100,
+          "name": "省份",
+          "placeholder": "请输入姓名",
+          "required": true
         },
         {
-          "canSelect" : true,
-          "height" : 100,
-          "name" : "城市",
-          "placeholder" : "请输入姓名",
-          "required" : true
+          "canSelect": true,
+          "height": 100,
+          "name": "城市",
+          "placeholder": "请输入姓名",
+          "required": true
         }
       ],
-      "title" : "观众联络信息"
+      "title": "观众联络信息"
     }
   ]
 }
