@@ -66,35 +66,35 @@
     {
       "className": "HomePage",
       "tabBarName": "首页",
-      "tabImageName": "ic_main_index_unselect",
-      "tabImagePressName": "ic_main_index_select"
+      "tabImageName": "sy_sy_icon",
+      "tabImagePressName": "sy_syxz_icon"
     },
     {
       "className": "Message",
       "tabBarName": "消息",
-      "tabImageName": "ic_main_message_unselect",
-      "tabImagePressName": "ic_main_message_select"
+      "tabImageName": "sy_xx_icon",
+      "tabImagePressName": "sy_xxxz_icon"
     },
     {
       "className": "Exhibits",
       "tabBarName": "展品",
-      "tabImageName": "ic_main_exhibit_unselect",
-      "tabImagePressName": "ic_main_exhibit_select"
+      "tabImageName": "sy_zp_icon",
+      "tabImagePressName": "sy_zpxz_icon"
     },
     {
       "className": "Exhibitor",
       "tabBarName": "展商",
-      "tabImageName": "ic_main_exhibition_unselect",
-      "tabImagePressName": "ic_main_exhibition_select"
+      "tabImageName": "sy_zs_icon",
+      "tabImagePressName": "sy_zsxz_icon"
     },
     {
       "className": "Mine",
       "tabBarName": "我的",
-      "tabImageName": "ic_main_mine_unselect",
-      "tabImagePressName": "ic_main_mine_select"
+      "tabImageName": "sy_wd_icon",
+      "tabImagePressName": "sy_wdxz_icon"
     }
   ],
-  "themeColor": "ffffff",
+  "themeColor": "ff0000",
   "userInfo": [
     {
       "infor": [
