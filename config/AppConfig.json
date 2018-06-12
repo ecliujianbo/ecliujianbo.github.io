@@ -55,7 +55,7 @@
   },
   "imageFileName": "http://www.andliu.cn/config/icons.zip",
   "message": {
-    "isIM": false
+    "isIM": true
   },
   "mine": {
     "invitatManage": true,
@@ -94,7 +94,7 @@
       "tabImagePressName": "sy_wdxz_icon"
     }
   ],
-  "themeColor": "ff0000",
+  "themeColor": "61399c",
   "userInfo": [
     {
       "infor": [
