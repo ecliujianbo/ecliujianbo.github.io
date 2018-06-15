@@ -63,7 +63,12 @@
   },
   "newsHTMLCode": "0",
   "tabBars": [
-    
+    {
+      "className": "HomePage",
+      "tabBarName": "首页",
+      "tabImageName": "sy_sy_icon",
+      "tabImagePressName": "sy_syxz_icon"
+    },
     {
       "className": "Message",
       "tabBarName": "消息",
