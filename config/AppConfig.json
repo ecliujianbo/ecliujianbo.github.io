@@ -63,19 +63,19 @@
   },
   "newsHTMLCode": "0",
   "tabBars": [
-    {
-      "className": "HomePage",
-      "tabBarName": "首页",
-      "tabImageName": "sy_sy_icon",
-      "tabImagePressName": "sy_syxz_icon"
-    },
+    
     {
       "className": "Message",
       "tabBarName": "消息",
       "tabImageName": "sy_xx_icon",
       "tabImagePressName": "sy_xxxz_icon"
     },
-   
+    {
+      "className": "Exhibits",
+      "tabBarName": "展品",
+      "tabImageName": "sy_zp_icon",
+      "tabImagePressName": "sy_zpxz_icon"
+    },
     {
       "className": "Exhibitor",
       "tabBarName": "展商",
