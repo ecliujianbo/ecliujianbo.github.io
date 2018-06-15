@@ -75,12 +75,7 @@
       "tabImageName": "sy_xx_icon",
       "tabImagePressName": "sy_xxxz_icon"
     },
-    {
-      "className": "Exhibits",
-      "tabBarName": "展品",
-      "tabImageName": "sy_zp_icon",
-      "tabImagePressName": "sy_zpxz_icon"
-    },
+   
     {
       "className": "Exhibitor",
       "tabBarName": "展商",
