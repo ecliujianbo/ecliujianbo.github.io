@@ -2,8 +2,8 @@
   "exhibitorHTMLCode": "0",
   "exhibitsHTMLCode": "0",
   "homePage": {
-    "brandExhibitor": true,
-    "firstExhibitor": true,
+    "brandExhibitor": false,
+    "firstExhibitor": false,
     "inButtons": [
       {
         "iconUrl": "www.",
@@ -51,7 +51,7 @@
         "title": "再来一个"
       }
     ],
-    "recommendedExhibits": true
+    "recommendedExhibits": false
   },
   "imageFileName": "http://www.andliu.cn/config/icons.zip",
   "message": {
