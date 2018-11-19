@@ -53,9 +53,9 @@
 }
 .c_i_industry li span {
     display: inline-block;
-    padding: 10px;
-    background: #6666ff;
-    color: white;
+    padding: 4px 10px;
+    background: #F6F6F6;
+    color: #666666;
 }
 .c_i_i_label{
     font-size: 18px;
