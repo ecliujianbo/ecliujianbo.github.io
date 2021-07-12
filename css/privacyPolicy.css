@@ -1,5 +1,23 @@
 .c_item p {
     color: #666;
-    font-size: 14px;
+    font-size: 30px;
+    margin: 10px 0;
+}
+h3{
+    font-size: 1.5em;
+}
+.title{
+     color: #333;
+    text-align: center;
+    
+}
+li{
+     color: #666;
+    font-size: 30px;
+    margin: 10px 0;
+}
+.subtitle{
+ color: #666;
+    font-size: 30px;
     margin: 10px 0;
 }
