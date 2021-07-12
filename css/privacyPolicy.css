@@ -1,23 +1,20 @@
 .c_item p {
     color: #666;
-    font-size: 30px;
+    font-size: 20px;
     margin: 10px 0;
-}
-h3{
-    font-size: 60px;
 }
 .h_title{
      color: #333;
     text-align: center;
     
 }
-li{
+ul,li{
      color: #666;
-    font-size: 30px;
+    font-size: 20px;
     margin: 10px 0;
 }
 .subtitle{
  color: #666;
-    font-size: 30px;
+    font-size: 20px;
     margin: 10px 0;
 }
