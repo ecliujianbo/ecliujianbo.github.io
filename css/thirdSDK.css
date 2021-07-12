@@ -1,11 +1,12 @@
 .desc{
-	font-size: 50px;
+	font-size: 20px;
 	flood-color: #333;
 }
 .sub_title{
-	font-size: 60px;
+	font-size: 24px;
+	font-weight: bold;
 }
 .sub_content{
-	font-size: 50px;
+	font-size: 20px;
 	flood-color: #666;
 }
