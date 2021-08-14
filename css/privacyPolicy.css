@@ -23,3 +23,8 @@ ul,li{
     font-size: 20px;
     margin: 10px 0;
 }
+
+.p_content {
+    font-size: 3em;
+    color: #333;
+}
